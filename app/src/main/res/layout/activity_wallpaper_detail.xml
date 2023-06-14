@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WallpaperDetailActivity">
+
+    <ImageView
+        android:id="@+id/imageViewWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#95151515"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+
+        <ImageView
+            android:id="@+id/buttonDownload"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/ic_download_24"
+            app:tint="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
